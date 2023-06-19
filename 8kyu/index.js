@@ -71,3 +71,36 @@ Complete the solution so that it reverses the string passed into it.
 // }
 
 // console.log(makeUpperCase("hello"));
+//==================
+
+// are you playing banjo ?
+
+// function areYouPlayingBanjo(name) {
+//   // let newName = "";
+//   // newName += name.toLowerCase()
+//   // return name[0] === "r" || name[0] === "R" ? `${name} plays banjo` : `${name} does not plays banjo`
+
+//   return (
+//     name +
+//     (name[0].toLowerCase() === "r" ?  " plays" : " does not play") +
+//     " banjo"
+//   );
+// }
+// console.log(areYouPlayingBanjo("rambo"));
+
+
+// ===============================
+// create a function which returns an RNA sequence from the given DNA sequence
+// function DNAtoRNA(dna) {
+//   return   dna.replaceAll("D", "R");
+// }
+// console.log(DNAtoRNA("Dna"));
+
+// ==========================
+
+// Convert a string to an array
+// function stringToArray(string) {
+//   return string.split(" ");
+// }
+// console.log(stringToArray("I love arrays they are my favorite"));
+// =============================
