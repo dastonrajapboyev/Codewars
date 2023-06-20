@@ -88,7 +88,6 @@ Complete the solution so that it reverses the string passed into it.
 // }
 // console.log(areYouPlayingBanjo("rambo"));
 
-
 // ===============================
 // create a function which returns an RNA sequence from the given DNA sequence
 // function DNAtoRNA(dna) {
@@ -104,3 +103,30 @@ Complete the solution so that it reverses the string passed into it.
 // }
 // console.log(stringToArray("I love arrays they are my favorite"));
 // =============================
+
+// Abbreviate Two Word Nmae
+
+// function abbrevName(name) {
+//   let newName = name.split(" ");
+//   let arr = [];
+//   for (let i = 0; i < newName.length; i++) {
+//     arr.push(newName[i][0]);
+//   }
+//   return arr.join(".").toUpperCase()
+// }
+// console.log(abbrevName("Doston Rajapboyev"));
+
+// ===========================
+
+// Fake Binary -----------
+
+// function fakeBin(x) {
+//   let res = "";
+//   for (let i = 0; i < x.length; i++) {
+//     if (x[i] >= "5") res += "1";
+//     else if (x[i] < "5") res += "0";
+//     else res += x[i];
+//   }
+//   return res;
+// }
+// console.log(fakeBin("31253457899345167"));
