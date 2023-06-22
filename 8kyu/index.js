@@ -150,4 +150,29 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(GrasShopper());
 // console.log(GrasShopper('Doston', 'Doston'));
 
-
+// Total amount of points
+// function ourTeam(games) {
+//   let res = null;
+//   for (let i = 0; i < games.length; i++) {
+//     if (games[i][0] > games[i][2]) res  += 3;
+//     else if (games[i][0] < games[i][2])  res += 0;
+//       else if (games[i][0] == games[i][2])  res += 1;
+//   }
+//   return res;
+// }
+// console.log(
+//   ourTeam([
+//     "1:0",
+//     "2:0",
+//     "3:0",
+//     "4:0",
+//     "2:1",
+//     "3:1",
+//     "4:1",
+//     "3:2",
+//     "4:2",
+//     "4:3",
+//   ])
+// ); // win
+// console.log(ourTeam(["1:1","2:2","3:3","4:4","2:2","3:3","4:4","3:3","4:4","4:4"])); // tie
+// console.log(ourTeam(["0:1","0:2","0:3","0:4","1:2","1:3","1:4","2:3","2:4","3:4"])); // loss
