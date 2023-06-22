@@ -130,3 +130,24 @@ Complete the solution so that it reverses the string passed into it.
 //   return res;
 // }
 // console.log(fakeBin("31253457899345167"));
+// ======================
+
+// Sentence Smash
+
+// function example (n){
+//   return n.join(" ")
+// }
+// console.log(example(['hello', 'world', 'this', 'is', 'great']));
+
+// =======================
+
+// GrasShopper- Personalized Message
+
+// function GrasShopper (name,owner){
+//   if(name === owner) return 'Hello Boss'
+//   else return 'Hello Guest'
+// }
+// console.log(GrasShopper());
+// console.log(GrasShopper('Doston', 'Doston'));
+
+
