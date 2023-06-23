@@ -176,3 +176,13 @@ Complete the solution so that it reverses the string passed into it.
 // ); // win
 // console.log(ourTeam(["1:1","2:2","3:3","4:4","2:2","3:3","4:4","3:3","4:4","4:4"])); // tie
 // console.log(ourTeam(["0:1","0:2","0:3","0:4","1:2","1:3","1:4","2:3","2:4","3:4"])); // loss
+
+//==========================
+
+// Remove exclamation marks
+
+
+// function removeMarks(remove) {
+//   return remove.replace("!", " ");
+// }
+// console.log(removeMarks("MARKS!REMOVE"));
