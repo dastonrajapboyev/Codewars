@@ -181,8 +181,34 @@ Complete the solution so that it reverses the string passed into it.
 
 // Remove exclamation marks
 
-
 // function removeMarks(remove) {
 //   return remove.replace("!", " ");
 // }
 // console.log(removeMarks("MARKS!REMOVE"));
+
+// ========================
+
+// let str= 'hello world'
+// let str2 =''
+// for (let i = 0; i < str.length; i++) {
+//    str2 +=str[i].repeat(2)
+//   }
+// console.log(str2);
+
+//
+
+// =======================
+// Is the string uppercase?
+
+// function str(uppercase) {
+//   for (let i = 0; i < uppercase.length; i++) {
+//     if (uppercase == uppercase.toUpperCase()) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
+//   return uppercase;
+// }
+
+// =====================
