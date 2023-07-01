@@ -220,3 +220,36 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(reverse("Hi There."));
 
 // ==================================
+
+
+// function multiTable(number) {
+//   let str = ''
+//   for (let i =1 ; i <= 10; i++) {
+//     str += `${i} * ${number} = ${i * number}\n` 
+//   }
+//   return str.slice(0, -1)
+// }
+// console.log(multiTable(5));
+
+// =============================
+
+var countSheep = function (num){
+  let res = ""
+  for (let i = 1; i <= num; i++) {
+    res += `${i} sheep...`
+  }
+  return res
+}
+console.log(countSheep(7));
+// function strCount(str, letter){  
+//   let res = ''
+//   let res2 =''
+//   for (let i = 0; i < str.length; i++) {
+//     if(str[i] == 'o') res + 1
+//     else if (str[i] == 'l') res2 + 1
+//   }
+// return res2
+// }
+
+// console.log(strCount('hello', 'o'));
+// console.log(str("DoSTON"));
