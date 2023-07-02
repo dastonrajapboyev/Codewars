@@ -221,11 +221,10 @@ Complete the solution so that it reverses the string passed into it.
 
 // ==================================
 
-
 // function multiTable(number) {
 //   let str = ''
 //   for (let i =1 ; i <= 10; i++) {
-//     str += `${i} * ${number} = ${i * number}\n` 
+//     str += `${i} * ${number} = ${i * number}\n`
 //   }
 //   return str.slice(0, -1)
 // }
@@ -233,23 +232,35 @@ Complete the solution so that it reverses the string passed into it.
 
 // =============================
 
-var countSheep = function (num){
-  let res = ""
-  for (let i = 1; i <= num; i++) {
-    res += `${i} sheep...`
-  }
-  return res
-}
-console.log(countSheep(7));
-// function strCount(str, letter){  
-//   let res = ''
-//   let res2 =''
-//   for (let i = 0; i < str.length; i++) {
-//     if(str[i] == 'o') res + 1
-//     else if (str[i] == 'l') res2 + 1
+// var countSheep = function (num){
+//   let res = ""
+//   for (let i = 1; i <= num; i++) {
+//     res += `${i} sheep...`
 //   }
-// return res2
+//   return res
 // }
+// console.log(countSheep(7));
 
-// console.log(strCount('hello', 'o'));
-// console.log(str("DoSTON"));
+//======================
+
+// You only need one - Beginner
+
+// function check(a, x) {
+//   return a.includes(x)
+// }
+// console.log(check([21, 34, 67], 67));
+
+// =============================
+
+// wovel remove
+// function removeVowels(str) {
+//   let vowels = ["a", "o", "e", "u", "i"];
+//   let result = "";
+//   for (let i = 0; i < str.length; i++) {
+//     if (!vowels.includes(str[i].toLowerCase())) {
+//       result += str[i];
+//     }
+//   }
+//   return result;
+// }
+// console.log(removeVowels("hello"));
