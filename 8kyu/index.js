@@ -264,3 +264,29 @@ Complete the solution so that it reverses the string passed into it.
 //   return result;
 // }
 // console.log(removeVowels("hello"));
+
+// =====================================
+
+// Correct the mistakes of the character recognition software
+
+// function correct(string) {
+
+//   for (let i = 0; i < string.length; i++) {
+//     string = string.replaceAll("0", "O").replaceAll("1", "I").replace("5", "S")
+//   }
+//   return string
+// }
+// console.log(correct("l0nd0n, 5ingapure"));
+
+// ================================
+
+// All Star Code Challenge #18
+
+// function func(a, b) {
+//   let res = 0;
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i] == b) res = res + 1;
+//   }
+//   return res;
+// }
+// console.log(func("hello", "l"));
