@@ -290,3 +290,30 @@ Complete the solution so that it reverses the string passed into it.
 //   return res;
 // }
 // console.log(func("hello", "l"));
+//===============================
+
+// Stringy Strings
+
+// function stringy(size) {
+//   let result = "";
+//   for (let i = 1; i <= size.length; i++) result += i % 2 ;
+//   return result;
+// }
+// console.log(stringy("Doston"));
+
+// ===================================
+
+// reversed string
+// function func(name){
+//   return name.split(" ").reverse().join(" ");
+// }
+// console.log(func("Doston, Radjapboyev"));
+
+// =================================
+
+// Exclamation marks series #1: Remove an exclamation mark from the end of string
+// function remove(string) {
+//   if (string.endsWith("!")) string = string.slice(0,-1);
+//   return string
+// }
+// console.log(remove("!hello !!"));
