@@ -317,3 +317,39 @@ Complete the solution so that it reverses the string passed into it.
 //   return string
 // }
 // console.log(remove("!hello !!"));
+
+// =====================================
+
+// Capitalization and Mutability
+
+// function capitalizeWord(word) {
+  // let newStr = word[0].toUpperCase()
+  // for (let i = 1; i < word.length; i++) {
+  //   newStr += word[i]
+  //   // (word[0] == word[i][0]) ? (newStr = word[i].toUpperCase()) : (newStr += word[i]);
+  // } // 1st way
+  // return newStr
+  // return word[0].toUpperCase() + word.slice(1); // 2nd way
+// }
+// console.log(capitalizeWord("word"));
+
+// ==================================================
+
+// String Templates - Bug Fixing #5
+
+// function buildString(...template){
+//   return `I like ${template.join(', ')}!`;
+// }
+
+// console.log(buildString('Cheese','Milk'));
+
+// =============================================
+
+// String cleaning (from numbers)
+
+// function stringClean(s){
+//   return s.replace(/[0-9]/g, '')
+// }
+// console.log(stringClean("Adgre2321 A1sad! A2A3A4 fv3fdv3J544K5L@"));
+
+// ==========================================
