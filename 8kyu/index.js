@@ -389,3 +389,69 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(sumMix([9, 3, "7", "3"]));
 
 // ===========================================
+
+// The Feast of Many Beasts
+
+// function feast(beast, dish) {
+//   beast = beast.split("");
+//   dish = dish.split("");
+//   if (
+//     beast[0] === dish[0] &&
+//     beast[beast.length - 1] === dish[dish.length - 1]
+//   ) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+
+// console.log(feast("great blue heron", "garlic naan"));
+
+// ===============================================
+
+// Sort and Star
+
+// function twoSort(s) {
+//   return s.sort()[0].split("").join("***");
+// }
+
+// console.log(
+//   twoSort([
+//     "turns",
+//     "out",
+//     "random",
+//     "test",
+//     "cases",
+//     "are",
+//     "easier",
+//     "than",
+//     "writing",
+//     "out",
+//     "basic",
+//     "ones",
+//   ])
+// );
+
+// ============================================
+
+// Well of Ideas - Easy Version
+
+// function well(x) {
+//   let sum = 0;
+//   for (let i = 0; i < x.length; i++) {
+//     if (x[i].includes("good")) {
+//       sum++;
+//     }
+//   }
+//   if (sum < 1 ) {
+//     return 'fail';
+//   } else if (sum == 1) {
+//     return 'publish';
+//   } else if (sum >= 1) {
+//     return "I smell a series!";
+//   }
+//   return sum;
+// }
+// console.log(well(["good", "bad", "good", "good", "good", "bad", "bad", "bad"]));
+
+// ===========================================
