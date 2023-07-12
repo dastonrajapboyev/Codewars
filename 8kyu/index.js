@@ -455,3 +455,31 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(well(["good", "bad", "good", "good", "good", "bad", "bad", "bad"]));
 
 // ===========================================
+
+// Count the Monkeys!
+
+// function monkeyCount(n) {
+//   let res = [];
+//   for (let i = 1; i <= n; i++) {
+//     res.push(i);
+//   }
+//   return res;
+// }
+
+// console.log(monkeyCount(9));
+
+// ==========================================
+
+// Add Length
+
+// function addLength(str) {
+//   let res = [];
+//   str = str.split(" ");
+//   for (let i = 0; i < str.length; i++) {
+//     res.push(`${str[i]} ${str[i].length}`);
+//   }
+//   return res;
+// }
+// console.log(addLength("apple ban"));
+
+// =============================================
