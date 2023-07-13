@@ -483,3 +483,36 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(addLength("apple ban"));
 
 // =============================================
+
+// Find Multiples of a Number
+
+// function findMultiples(integer, limit) {
+//   let multiples = [];
+//   for (let i = integer; i <= limit; i += integer) {
+//     multiples.push(i);
+//   }
+//   return multiples;
+// }
+// console.log(findMultiples(2, 6));
+
+// ========================================
+
+// The Wide-Mouthed frog!
+
+// function mouthSize(animal) {
+//   if (animal == "alligator" && animal.toUpperCase) return "small";
+//   else return "wide";
+// }
+
+// console.log(mouthSize("Alligator"));
+
+// ====================================
+
+// Alan Partridge II - Apple Turnover
+
+// function apple(x) {
+//   return Math.pow(x, 2) >= 1000
+//     ? "It's hotter than the sun!!"
+//     : "Help yourself to a honeycomb Yorkie for the glovebox.";
+// }
+// console.log(apple(50));
