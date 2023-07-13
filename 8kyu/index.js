@@ -516,3 +516,34 @@ Complete the solution so that it reverses the string passed into it.
 //     : "Help yourself to a honeycomb Yorkie for the glovebox.";
 // }
 // console.log(apple(50));
+
+// =================================
+
+// Grasshopper - If/else syntax debug
+
+// function checkAlive(health) {
+//   return health <= 0 ? false : true;
+// }
+// console.log(checkAlive(1));
+
+// ==================================
+
+// Incorrect division method
+
+// const solve = (x, y) => x / y;
+// console.log(solve(2,1));
+
+// ==================================
+
+// Array plus array
+
+// function arrayPlusArray(arr1, arr2) {
+//   let sum = 0;
+//   for (let i = 0; i < arr1.length; i++) {
+//     sum += arr1[i] + arr2[i];
+//   }
+//   return sum;
+// }
+// console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
+
+// ================================================
