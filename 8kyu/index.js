@@ -547,3 +547,44 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]));
 
 // ================================================
+
+// Is this my tail?
+
+// function correctTail(body, tail) {
+//   if (body.endsWith(tail)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
+// console.log(correctTail("fox", "x"));
+
+// ========================================
+
+// Count Odd Numbers below n
+
+// function oddCount(n) {
+//   let sum = 0;
+//   for (let i = 1; i < n; i += 2) sum++;
+//   return sum;
+
+// this is faster way \/
+// function oddCount(n) {
+//   return Math.floor(n / 2);
+// }
+// }
+// console.log(oddCount(15));
+
+// ====================================
+
+// Jenny's secret message
+
+// Jenny's secret message
+
+// function greet(name) {
+//   if (name === "Johnny") return "Hello, my love!";
+//   return "Hello, " + name + "!";
+// }
+// console.log(greet('Doston'));
+
+// ======================================
