@@ -588,3 +588,20 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(greet('Doston'));
 
 // ======================================
+
+// Kata Example Twist
+
+let websites = [];
+websites = Array(1000).fill("codewars")
+
+// ========================================
+
+// Do I get a bonus?
+
+function bonusTime(salary, bonus) {
+  bonus === true ? (salary = salary * 10) : `£${salary}`;
+  return `£${salary}`;
+}
+console.log(bonusTime(10000, true));
+
+// ============================================
