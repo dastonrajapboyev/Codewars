@@ -567,13 +567,13 @@ Complete the solution so that it reverses the string passed into it.
 //   let sum = 0;
 //   for (let i = 1; i < n; i += 2) sum++;
 //   return sum;
-
+// }
 // this is faster way \/
 // function oddCount(n) {
 //   return Math.floor(n / 2);
 // }
 // }
-// console.log(oddCount(15));
+// console.log(oddCount(30));
 
 // ====================================
 
@@ -591,17 +591,44 @@ Complete the solution so that it reverses the string passed into it.
 
 // Kata Example Twist
 
-let websites = [];
-websites = Array(1000).fill("codewars")
+// let websites = [];
+// websites = Array(1000).fill("codewars")
 
 // ========================================
 
 // Do I get a bonus?
 
-function bonusTime(salary, bonus) {
-  bonus === true ? (salary = salary * 10) : `£${salary}`;
-  return `£${salary}`;
-}
-console.log(bonusTime(10000, true));
+// function bonusTime(salary, bonus) {
+//   bonus === true ? (salary = salary * 10) : `£${salary}`;
+//   return `£${salary}`;
+// }
+// console.log(bonusTime(10000, true));
 
 // ============================================
+
+// Function 1 - hello world
+
+// const greet = ()=> 'hello world!'
+
+// console.log(greet());
+
+// ============================================
+
+// Beginner - Lost Without a Map
+
+// function maps(x) {
+//   let res = x.map((initial) => initial * 2);
+//   return res;
+// }
+// console.log(maps([1, 2, 3]));
+
+// =================================
+
+// Short Long Short
+
+// function solution(a, b){
+//   return (a.length < b.length) ? a.concat(b) + a : b.concat(a) + b
+// }
+// console.log(solution('444', '22'));
+
+// =======================================
