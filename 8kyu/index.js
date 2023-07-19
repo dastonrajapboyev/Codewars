@@ -632,3 +632,38 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(solution('444', '22'));
 
 // =======================================
+
+// L1: Bartender, drinks!
+
+// function getDrinkByProfession(param) {
+//   param = param.toLowerCase();
+//   if (param === "jabroni") {
+//     return `${param} "Patron Tequila"`;
+//   } else if (param === "school counselor") {
+//     return "Anything with Alcohol";
+//   } else if (param === "programmer") {
+//     return "Hipster Craft Beer";
+//   } else if (param === "bike gang member") {
+//     return "Moonshine";
+//   } else if (param === "politician") {
+//     return "Your tax dollars";
+//   } else if (param === "rapper") {
+//     return "Cristal";
+//   } else {
+//     return "Beer";
+//   }
+// }
+
+// console.log(getDrinkByProfession("Programmer"));
+
+// ==========================================
+
+// Welcome to the City
+
+// function sayHello( name, city, state ) {
+//   name = name.join(" ")
+//   return `Hello, ${name}!, Welcome to ${city}, ${state}!`
+// }
+// console.log(sayHello(['Franklin','Delano','Roosevelt'], 'Chicago', 'Illinois'));
+
+// ==============================================
