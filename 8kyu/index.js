@@ -749,3 +749,57 @@ Complete the solution so that it reverses the string passed into it.
 // function answer3(){
 //   return "yes";
 // }
+
+//===================================
+
+// Training JS #4: Basic data types--Array
+
+// getLength = (arr) => arr.length;
+
+// getFirst = (arr) => arr[0];
+
+// getLast = (arr) => arr[arr.length - 1];
+
+// pushElement = (arr) => {
+//   arr.push(1);
+//   return arr;
+// };
+
+// popElement = (arr) => {
+//   arr.pop();
+//   return arr;
+// };
+
+// we can use console.log for every function and check
+
+// =======================================
+
+// Training JS #5: Basic data types--Object
+
+// function animal(obj){
+//   return `"This ${obj.color} ${obj.name} has ${obj.legs} legs. "`
+// }
+
+// console.log(animal({name:"dog",legs:4,color:"white"}));
+
+// =========================================
+
+// Training JS #6: Basic data types--Boolean and conditional statements if..else
+
+// function trueOrFalse(val){
+//   return (val) ? "true" : "false";
+// }
+// console.log(trueOrFalse(1));
+
+// ===========================================
+
+// Training JS #7: if..else and ternary operator
+
+// function saleHotdogs(n){
+//   if(n < 5) return n * 100
+//   else if (n >= 5 && n < 10) return n * 95
+//   else if(n >= 10) return n * 90
+// }
+// console.log(saleHotdogs(100));
+
+// ===========================================
