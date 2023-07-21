@@ -832,3 +832,39 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(howManydays(2));
 
 // ========================================
+
+// Training JS #9: loop statement --while and do..while
+
+// function padIt(str, n) {
+//   let i = 0;
+//   let left = true;
+//   while (i < n) {
+//     if (left) {
+//       str = "*" + str;
+//     } else {
+//       str = str + "*";
+//     }
+//     i++;
+//     left = !left;
+//   }
+//   return str;
+// }
+
+// console.log(padIt("a", 3));
+
+// ===================================
+
+// Training JS #10: loop statement --for
+
+// function pickIt(arr){
+//   var odd=[],even=[];
+//   for (let i = 0; i < arr.length; i++) {
+//     if(arr[i]% 2 === 0) even.push(arr[i])
+//     else odd.push(arr[i])
+//   }
+//   return [odd,even];
+// }
+
+// console.log(pickIt([1,2,3]));
+
+// ===================================
