@@ -892,3 +892,40 @@ Complete the solution so that it reverses the string passed into it.
 // );
 
 // ======================================
+
+// Training JS #12: loop statement --for..in and for..of
+
+// function giveMeFive(obj){
+//   let arr = []
+//   for(key in obj){
+//     if(key.length === 5) arr.push(key)
+//     if(obj[key].length === 5) arr.push(obj[key])
+//   }
+//   return arr
+// }
+// console.log(giveMeFive({Ihave:"enough", money:"to",buy:"a",car:"model"}));
+
+// =====================================
+
+// Training JS #14: Methods of Number object--toString() and toLocaleString()
+
+// let colorOf = (r, g, b) => {
+//   let a = r.toString(16).padStart(2, "0"),
+//     c = g.toString(16).padStart(2, "0"),
+//     d = b.toString(16).padStart(2, "0");
+//   return `#${a}${c}${d}`;
+// };
+// console.log(colorOf(0,111,0));
+
+// ======================================
+
+// Training JS #16: Methods of String object--slice(), substring() and substr()
+
+// function cutIt(arr) {
+//   let minLength = Math.min(...arr.map((val) => val.length));
+//   let filtered = arr.map((val) => val.slice(0, minLength));
+//   return filtered;
+// }
+// console.log(cutIt(["codewars", "javascript", "java"]));
+
+// ============================================
