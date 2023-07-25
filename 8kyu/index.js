@@ -907,6 +907,16 @@ Complete the solution so that it reverses the string passed into it.
 
 // =====================================
 
+// Training JS #13: Number object and its properties
+
+// function whatNumberIsIt(n){
+//   //coding here
+
+// }
+// console.log(whatNumberIsIt());
+
+// ===========================================
+
 // Training JS #14: Methods of Number object--toString() and toLocaleString()
 
 // let colorOf = (r, g, b) => {
@@ -929,3 +939,40 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(cutIt(["codewars", "javascript", "java"]));
 
 // ============================================
+
+// /Training JS #17: Methods of String object--indexOf(), lastIndexOf() and search()
+
+// function firstToLast(str, c) {
+//   const firstIndex = str.indexOf(c);
+//   const lastIndex = str.lastIndexOf(c);
+//   if (firstIndex === -1 || lastIndex === -1) return -1;
+//   return lastIndex - firstIndex;
+// }
+// console.log(firstToLast("bbc", "a"));
+
+// ========================================
+
+// Training JS #18: Methods of String object--concat() split() and its good friend join()
+
+// function splitAndMerge(string, separator) {
+//   words = string.split(" ");
+//   let separated = words.map((val) => {return val.split("").join(separator)});
+//   return separated.join(" ");
+// }
+// console.log(splitAndMerge("My name is John", "-"));
+
+// ========================================
+
+// Training JS #19: Methods of String object--toUpperCase() toLowerCase() and replace()
+
+// function alienLanguage(str) {
+//   str = str.toUpperCase().split(" ")
+//   let mapped = str.map((val)=>{
+//     return val.slice(0,-1) + val.slice(-1).toLowerCase();
+//   })
+//   return mapped.join(" ")
+// }
+
+// console.log(alienLanguage("My name is John"));
+
+// =====================================
