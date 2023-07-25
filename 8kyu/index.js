@@ -976,3 +976,31 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(alienLanguage("My name is John"));
 
 // =====================================
+
+// function fiveLine(s){
+//   let str = s.trim()
+//   for (let i = 0; i <5; i++) {
+//     console.log(`${str}`, );
+//   }
+//   return s
+// }
+// console.log(fiveLine("  a"));
+
+// ========================================
+
+// Training JS #21: Methods of String object--trim() and the string template
+
+// function fiveLine(s) {
+//   let result = "";
+//   let str = s.trim();
+//   for (let i = 1; i <= 5; i++) {
+//     let line = str.repeat(i);
+//     result += `${line}\n`;
+//   }
+//   result = result.slice(0, -1);
+//   return result;
+// }
+
+// console.log(fiveLine("  a"));
+
+// ==================================
