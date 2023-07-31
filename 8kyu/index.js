@@ -1004,3 +1004,38 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(fiveLine("  a"));
 
 // ==================================
+
+// Solutions for Dollars and Cents
+
+// function formatMoney(amount) {
+//   return Number.isInteger(amount)
+//     ? `$${amount}.00`
+//     : `$${Number(amount).toFixed(2)}`;
+// }
+// console.log(formatMoney(39.1));
+
+// ======================================
+
+// Define a card suit
+
+// function defineSuit(card) {
+//   if (card.includes('♠')) return 'spades'
+//   else if (card.includes('♦')) return 'diamonds'
+//   else if (card.includes('♥')) return 'hearts'
+//   else if (card.includes('♣')) return 'clubs'
+//   return card
+// }
+// console.log(defineSuit('♣'));
+
+// ======================================
+
+// Contamination #1 -String-
+
+// function contamination(text, char) {
+//   let res = "";
+//   for (let i = 0; i < text.length; i++) res += char;
+//   return res;
+// }
+// console.log(contamination("abcdfg", "z"));
+
+// =========================================
