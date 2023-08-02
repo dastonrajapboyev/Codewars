@@ -1039,3 +1039,25 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(contamination("abcdfg", "z"));
 
 // =========================================
+
+// Is there a vowel in there?
+
+// const updateData = (data) => {
+//   let res = data.map((value) => {
+//     if (value === 117) return "u";
+//     if (value === 97) return "a";
+//     if (value === 101) return "e";
+//     if (value === 105) return "i";
+//     if (value === 111) return "o";
+//     else return value;
+//   });
+//   return res
+// };
+// console.log(
+//   updateData([
+//     118, 117, 120, 101, 117, 98, 122, 97, 120, 106, 104, 116, 113, 114, 113,
+//     120, 106,
+//   ])
+// );
+
+// =======================================
