@@ -1061,3 +1061,31 @@ Complete the solution so that it reverses the string passed into it.
 // );
 
 // =======================================
+
+// Who is going to pay for the wall?
+
+// function whoIsPaying(name) {
+//   name = name.split(" ");
+//   let res = [];
+//   name.forEach((value) => {
+//     if (value.length > 2) return res.push(value), res.push(value.slice(0, 2));
+//     else if (value.length <= 2)
+//       return res.push(value);
+//   });
+//   return res;
+// }
+// console.log(whoIsPaying("Me"));
+
+// ================================
+
+// Name on billboard
+
+// function billboard(name, price = 30) {
+//   let count = 0;
+//   for (let i = 0; i < name.length; i++) count += price;
+//   return count;
+// }
+
+// console.log(billboard("Doston Rajapboyev"));
+
+// ===============================
