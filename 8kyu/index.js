@@ -1089,3 +1089,38 @@ Complete the solution so that it reverses the string passed into it.
 // console.log(billboard("Doston Rajapboyev"));
 
 // ===============================
+
+// UEFA EURO 2016
+
+// function uefaEuro2016(teams, scores) {
+//   let team1 = teams[0];
+//   let team2 = teams[1]
+//   if(scores[0] > scores[1]) return `At match ${team1} - ${team2}, ${team1} won!`
+//   else if(scores[0] < scores[1]) return `At match ${team1} - ${team2}, ${team2} won!`;
+//   else return `At match ${team1} - ${team2}, teams played draw.`
+// }
+// console.log(uefaEuro2016(["Germany", "Ukraine"], [2, 0]));
+
+// ======================================
+
+// ES6 string addition
+
+// function joinStrings(string1, string2){
+//   return `${string1} & ${string2}`
+// }
+// console.log(joinStrings('string1', 'string2'));
+
+// ======================================
+
+// A Strange Trip to the Market
+
+// function isLockNessMonster(s) {
+//   return s.includes("tree fiddy") || s.includes("3.50") ? true : false;
+// }
+// console.log(
+//   isLockNessMonster(
+//     "Your girlscout cookies are 3.50 ready to ship. Your total comes to tree fiddy"
+//   )
+// );
+
+// ================================
