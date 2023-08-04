@@ -1124,3 +1124,23 @@ Complete the solution so that it reverses the string passed into it.
 // );
 
 // ================================
+
+// Template Strings
+
+// let TempleStrings = function(obj, feature) {
+//   return `${obj} are ${feature}`
+// }
+
+// console.log(TempleStrings("Animals","Good"));
+
+// =================================
+
+// Simple Comparison?
+
+// function add(a, b){
+// 	return a == b
+// }
+
+// console.log(add('1', 1));
+
+// =================================
