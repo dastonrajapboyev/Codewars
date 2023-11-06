@@ -55,3 +55,13 @@
 // console.log(getCount("hello"));
 
 // ================================
+
+// Disemvowel Trolls
+
+// function disemvowel(str) {
+//   return (str.toUpperCase().replace(/[aeiuo]/g, ''))
+// }
+
+// console.log(disemvowel("What are you, a cOmmunist?"));
+
+// ===================================
