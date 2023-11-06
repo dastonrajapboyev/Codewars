@@ -44,3 +44,14 @@
 // console.log(fireFight("Mast Deck Engine Water Fire"));
 
 // ========================================
+
+
+// Vowel Count
+
+// function getCount(str) {
+//   return (str.match(/[aeiou]/g) || []).length
+// }
+
+// console.log(getCount("hello"));
+
+// ================================
