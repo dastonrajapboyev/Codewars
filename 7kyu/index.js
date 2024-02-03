@@ -45,7 +45,6 @@
 
 // ========================================
 
-
 // Vowel Count
 
 // function getCount(str) {
@@ -65,3 +64,16 @@
 // console.log(disemvowel("What are you, a cOmmunist?"));
 
 // ===================================
+
+// 7 kyu Divide and Conquer
+
+function divCon(x) {
+  let int = 0;
+  let notInt = 0;
+  x.map((value) => {
+    if (typeof value === "number") int += value;
+    else notInt += +value;
+  });
+  return int - notInt;
+}
+console.log(divCon([9, 3, "7", "3"]));
