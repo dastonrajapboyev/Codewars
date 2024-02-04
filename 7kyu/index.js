@@ -67,13 +67,25 @@
 
 // 7 kyu Divide and Conquer
 
-function divCon(x) {
-  let int = 0;
-  let notInt = 0;
-  x.map((value) => {
-    if (typeof value === "number") int += value;
-    else notInt += +value;
-  });
-  return int - notInt;
+// function divCon(x) {
+//   let int = 0;
+//   let notInt = 0;
+//   x.map((value) => {
+//     if (typeof value === "number") int += value;
+//     else notInt += +value;
+//   });
+//   return int - notInt;
+// }
+// console.log(divCon([9, 3, "7", "3"]));
+
+// =====================================
+
+// 8 kyu Counting sheep...
+
+function countSheeps(sheep) {
+  return sheep.reduce((acc, cur) => (cur === true ? acc + 1 : acc), 0);
 }
-console.log(divCon([9, 3, "7", "3"]));
+
+console.log(
+  countSheeps([undefined, null, false, true, true, false, null, undefined])
+);
