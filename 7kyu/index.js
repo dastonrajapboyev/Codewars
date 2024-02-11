@@ -78,14 +78,17 @@
 // }
 // console.log(divCon([9, 3, "7", "3"]));
 
-// =====================================
+// =========================
 
-// 8 kyu Counting sheep...
+// 7 kyuHighest and Lowest
 
-function countSheeps(sheep) {
-  return sheep.reduce((acc, cur) => (cur === true ? acc + 1 : acc), 0);
+function highAndLow(numbers) {
+  let numberArray = numbers.split(" ");
+  numberArray = numberArray.map(Number);
+  let high = Math.max(...numberArray);
+  let low = Math.min(...numberArray);
+  return `max ${high} min ${low}`;
 }
+console.log(highAndLow("1 2 3 4 5"));
 
-console.log(
-  countSheeps([undefined, null, false, true, true, false, null, undefined])
-);
+// ===============
