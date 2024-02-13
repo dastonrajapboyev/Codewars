@@ -82,13 +82,38 @@
 
 // 7 kyuHighest and Lowest
 
-function highAndLow(numbers) {
-  let numberArray = numbers.split(" ");
-  numberArray = numberArray.map(Number);
-  let high = Math.max(...numberArray);
-  let low = Math.min(...numberArray);
-  return `max ${high} min ${low}`;
-}
-console.log(highAndLow("1 2 3 4 5"));
+// function highAndLow(numbers) {
+//   let numberArray = numbers.split(" ");
+//   numberArray = numberArray.map(Number);
+//   let high = Math.max(...numberArray);
+//   let low = Math.min(...numberArray);
+//   return `max ${high} min ${low}`;
+// }
+// console.log(highAndLow("1 2 3 4 5"));
 
 // ===============
+
+// Convert an array of strings to array of numbers
+
+// function toNumberArray(stringarray) {
+//   let newArr = stringarray.map(Number);
+//   return newArr;
+// }
+
+// console.log(toNumberArray(["1.1", "2.2", "3.3"]));
+
+// =================
+
+// 7 kyu Tidy Number (Special Numbers Series #9)
+
+// function tidyNumber(n) {
+//   const sortedDigits = n
+//     .toString()
+//     .split("")
+//     .map(Number)
+//     .sort((a, b) => a - b);
+
+//   const originalDigits = n.toString().split("").map(Number);
+//   return JSON.stringify(sortedDigits) === JSON.stringify(originalDigits);
+// }
+// console.log(tidyNumber(132));
