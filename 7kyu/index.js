@@ -117,3 +117,34 @@
 //   return JSON.stringify(sortedDigits) === JSON.stringify(originalDigits);
 // }
 // console.log(tidyNumber(132));
+
+// ===============================
+
+// function countWins(winnerList, country) {
+//   return winnerList.filter((value) => value.country === country).length;
+// }
+// const winnerList1 = [
+//   { season: "1996–97", team: "Borussia Dortmund", country: "Germany" },
+//   { season: "1997–98", team: "Real Madrid", country: "Spain" },
+//   { season: "1998–99", team: "Manchester United", country: "England" },
+//   { season: "1999–00", team: "Real Madrid", country: "Spain" },
+//   { season: "2000–01", team: "Bayern Munich", country: "Germany" },
+//   { season: "2001–02", team: "Real Madrid", country: "Spain" },
+//   { season: "2002–03", team: "Milan", country: "Italy" },
+// ];
+// console.log(countWins(winnerList1, "Spain"));
+
+//===================================
+
+// Multiply Word in String
+
+function modifyMultiply(str, loc, num) {
+  return str
+    .split(" ")
+    [loc].concat("-")
+    .repeat(num)
+    .split(" ")
+    .join()
+    .slice(0, -1);
+}
+console.log(modifyMultiply("This is a string", 3, 5));
