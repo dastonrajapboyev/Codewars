@@ -138,13 +138,15 @@
 
 // Multiply Word in String
 
-function modifyMultiply(str, loc, num) {
-  return str
-    .split(" ")
-    [loc].concat("-")
-    .repeat(num)
-    .split(" ")
-    .join()
-    .slice(0, -1);
-}
-console.log(modifyMultiply("This is a string", 3, 5));
+// function modifyMultiply(str, loc, num) {
+//   return str
+//     .split(" ")
+//     [loc].concat("-")
+//     .repeat(num)
+//     .split(" ")
+//     .join()
+//     .slice(0, -1);
+// }
+// console.log(modifyMultiply("This is a string", 3, 5));
+
+// ===================================
