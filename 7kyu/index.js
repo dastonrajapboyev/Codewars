@@ -249,3 +249,135 @@
 // ];
 
 // console.log(greetDevelopers(list1));
+
+// ===============================
+
+// 7 kyu
+// Coding Meetup #3 - Higher-Order Functions Series - Is Ruby coming?
+
+// function isRubyComing(list) {
+//   return list.some((value) => value.language === "Ruby");
+// }
+
+// var list1 = [
+//   {
+//     firstName: "Sofia",
+//     lastName: "I.",
+//     country: "Argentina",
+//     continent: "Americas",
+//     age: 35,
+//     language: "Java",
+//   },
+//   {
+//     firstName: "Lukas",
+//     lastName: "X.",
+//     country: "Croatia",
+//     continent: "Europe",
+//     age: 35,
+//     language: "Python",
+//   },
+//   {
+//     firstName: "Madison",
+//     lastName: "U.",
+//     country: "United States",
+//     continent: "Americas",
+//     age: 32,
+//     language: "Ruby",
+//   },
+// ];
+
+// console.log(isRubyComing(list1));
+
+// ==============================
+
+// 7 kyu
+// Coding Meetup #4 - Higher-Order Functions Series - Find the first Python developer
+
+// function getFirstPython(list) {
+//   const pythonDeveloper = list.filter(
+//     (value) => value.language === "Python"
+//   )[0];
+
+//   return pythonDeveloper
+//     ? `${pythonDeveloper.firstName} ${pythonDeveloper.country}`
+//     : "There will be no Python developers";
+// }
+// var list1 = [
+//   {
+//     firstName: "Mark",
+//     lastName: "G.",
+//     country: "Scotland",
+//     continent: "Europe",
+//     age: 22,
+//     language: "JavaScript",
+//   },
+//   {
+//     firstName: "Victoria",
+//     lastName: "T.",
+//     country: "Puerto Rico",
+//     continent: "Americas",
+//     age: 30,
+//     language: "Python",
+//   },
+//   {
+//     firstName: "Emma",
+//     lastName: "B.",
+//     country: "Norway",
+//     continent: "Europe",
+//     age: 19,
+//     language: "Clojure",
+//   },
+// ];
+
+// console.log(getFirstPython(list1));
+
+// ===========================
+
+// 7 kyu
+// Coding Meetup #5 - Higher-Order Functions Series - Prepare the count of languages
+
+// function countLanguages(list) {
+//   return list.reduce((acc, value) => {
+//     acc[value.language] = (acc[value.language] || 0) + 1;
+//     return acc;
+//   }, {});
+// }
+
+// var list1 = [
+//   {
+//     firstName: "Noah",
+//     lastName: "M.",
+//     country: "Switzerland",
+//     continent: "Europe",
+//     age: 19,
+//     language: "C",
+//   },
+//   {
+//     firstName: "Anna",
+//     lastName: "R.",
+//     country: "Liechtenstein",
+//     continent: "Europe",
+//     age: 52,
+//     language: "JavaScript",
+//   },
+//   {
+//     firstName: "Ramon",
+//     lastName: "R.",
+//     country: "Paraguay",
+//     continent: "Americas",
+//     age: 29,
+//     language: "Ruby",
+//   },
+//   {
+//     firstName: "George",
+//     lastName: "B.",
+//     country: "England",
+//     continent: "Europe",
+//     age: 81,
+//     language: "C",
+//   },
+// ];
+
+// console.log(countLanguages(list1));
+
+// ================================
